@@ -1,0 +1,129 @@
+a #logo-text , a>img {
+    float: left;
+}
+body{
+    background-color: #FFCD26
+}
+
+header{
+    background-color: #8767C9
+}
+
+.navbar-nav .nav-item > .nav-link,.navbar-nav .nav-item.active > .nav-link{
+    text-align: center;
+    font-size: 1.5em;
+    color:yellowgreen
+}
+
+.navbar-nav .nav-item > .nav-link:hover{
+    background-color: #fff;
+}
+#phone{
+    font-size: 1.4em;
+    font-weight: bold;
+    color:crimson;
+}
+#deliver{
+    text-align:right;
+    color:yellowgreen
+}
+
+#logo-text{
+    margin-left: 8px;
+}
+#logo-text > h1{
+    color: red
+    text-transform:cadetblue;
+    text-shadow: 0px 2px 2px #black
+}
+
+.navbar-nav{
+    position: relative;
+    top:-32px;
+}
+
+.jumbotron>img{
+    height: 100%;
+    width: 100%
+}
+.jumbotron{
+    padding: 0px;
+    margin-top: 16px;
+    border:2px solid #000;
+    box-shadow: 0 0 10px #000;
+}
+.home-tiles{
+    display: block;
+    height: 250px;
+    border :1px solid #000;
+    box-shadow: 0 0 10px #000;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.home-tiles:hover{
+box-shadow: 0 0 10px #fff;
+}
+.home-tiles>span{
+    background-color: #000;
+    opacity: 0.6;
+    font-size: 1.5em;
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align:center ;
+    bottom: 0px;
+    left: 0px;
+
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    margin-top: 16px;
+    padding: 16px 0px;
+
+}
+#deliver-limit{
+    color: green;
+    font-size: 0.8em;
+}
+footer .container .row div:nth-child(3){
+    font-style: italic;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #logo-text > h1{
+   font-size: 0.75em;
+} 
+.home-tiles>img{
+    width: 100%;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #logo-text > h1{
+        font-size: 0.9em;
+     }
+  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+     }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-nav{
+    position: relative;
+    top:-32px;
+} }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navbar-nav{
+    position: relative;
+    top:-32px;
+} }
